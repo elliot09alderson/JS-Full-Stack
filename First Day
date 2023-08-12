@@ -1,0 +1,116 @@
+// what is js
+//scripting language  //programming language //ES6 -2015
+
+// Homework ask Chat GPT your doubts and questions 
+
+// Data types in JS
+// String .
+// Number.
+// Bigint.
+// Boolean.
+// Undefined.
+// Null.
+// Symbol.
+// Object.
+// ref: https://www.w3schools.com/js/js_datatypes.asp
+
+// ***************** VARIABLES ******************
+// variables are containers
+// const , let // const means constant
+
+// let idk = 8.984938; //decimal number
+// idk = "sushanshu baghel"; //string
+// idk = true; //boolean
+
+// ************PRINTING **************
+// console.log(typeof idk);// works same as system.out.println
+// console.log(typeof idk);// for printing the data type
+
+// *************** ARRAY Object ***************
+// def :Array is an collection of similar data types
+
+// let myarr = ["idaskldnask", "lasjndsakldnsalkn", "ksadnskdsna"];
+
+// let myNames = [83293, 232932, 29382832, 2918323];
+// console.log(myNames);
+
+// **************** FUCNTIONS **************
+//Function should always accept some values as a argument and return a value after processing it.
+
+//so later you can use it when you want
+
+// const A = "srijan";
+// // const B = "verma";
+// const C = 9;
+
+// ***********TRADITIONAL FUCNTION *********
+// function getValue(a, b) {
+//   return a + b;
+// }
+// const c = getValue(5, 6);
+// console.log(c);
+
+// ************ ES-6 ***********
+// what we have to learn
+// callbacks
+// arrow functions
+// higher order functions
+// advanced operators
+
+// ************* fat arrow function ***********
+// const getFullNAme = (a, b) => a * b; // it will return 4*9
+
+// const answer = getFullNAme(4, 9, 8); // invoking/calling the function
+
+// console.log(answer);
+
+// ******* OBSERVE THE BIGGER PICTURE **********
+// const product = [
+//   {
+//     name: "ranjeet kumar",
+//     phoneNumber: "0909029",
+//     address: "arya nagar",
+//     amount: 893,
+//     review: [
+//       { P_id: "kasjdjkd", caption: "nice" },
+//       { P_id: "kasjdjkdsdsds002392n", caption: "horrible" },
+//       { P_id: "kasjdjkd", caption: "dont buy " },
+//     ],
+//   },
+
+//   {
+//     name: "ranjeet kumar",
+//     phoneNumber: "0909029",
+//     address: "arya nagar",
+//     amount: 893,
+//     review: [
+//       { P_id: "kasjdjkd", caption: "nice" },
+//       { P_id: "kasjdjkdsdsds002392n", caption: "horrible" },
+//       { P_id: "kasjdjkd", caption: "dont buy " },
+//     ],
+//   },
+
+//   {
+//     name: "ranjeet kumar",
+//     phoneNumber: "0909029",
+//     address: "arya nagar",
+//     amount: 893,
+//     review: [
+//       { P_id: "kasjdjkd", caption: "nice" },
+//       { P_id: "kasjdjkdsdsds002392n", caption: "horrible" },
+//       { P_id: "kasjdjkd", caption: "dont buy " },
+//     ],
+//   },
+
+//   {
+//     name: "ranjeet kumar",
+//     phoneNumber: "0909029",
+//     address: "arya nagar",
+//     amount: 893,
+//     review: [
+//       { P_id: "kasjdjkd", caption: "nice" },
+//       { P_id: "kasjdjkdsdsds002392n", caption: "horrible" },
+//       { P_id: "kasjdjkd", caption: "dont buy " },
+//     ],
+//   },
+// ];
